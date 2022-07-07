@@ -1,4 +1,5 @@
 import 'package:clone_facbook/config/palette.dart';
+import 'package:clone_facbook/screen/screen.dart';
 import 'package:flutter/material.dart';
 
 import 'screen/home_screen.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: Palette.scaffold,
       ),
-      home: const HomeScreen(),
+      home: const NavScreen(),
     );
   }
 }
